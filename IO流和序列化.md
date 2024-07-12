@@ -358,7 +358,7 @@ public class IOExample {
 
 # 实现文件中换行显示
 
-![image-20240712101900397](E:\JAVA58\一阶段\0712\img\image-20240712101900397.png)
+![image-20240712101900397](img/image-20240712101900397.png)
 
 ```java
 			 /*
@@ -604,9 +604,9 @@ public class OrderTest {
 //结果是将OrderService类中的orders集合中的所有Order对象的信息写入到名为"order.txt"的文件中。每个Order对象的信息占一行，包括id、proName、price、count和sumPrice。
 ```
 
-![image-20240712201946928](E:\JAVA58\一阶段\0712\img\image-20240712201946928.png)
+![image-20240712201946928](img/image-20240712201946928.png)
 
-![image-20240712202016290](E:\JAVA58\一阶段\0712\img\image-20240712202016290.png)
+![image-20240712202016290](img/image-20240712202016290.png)
 
 # BufferedReader类API
 
@@ -789,7 +789,7 @@ public class FileInputStreamApiTest {
 
 ## 指定流资源对象通过转换器转换成指定的另一种流资源对象应用
 
-![image-20240712144634674](E:\JAVA58\一阶段\0712\img\image-20240712144634674.png)
+![image-20240712144634674](img/image-20240712144634674.png)
 
 
 
