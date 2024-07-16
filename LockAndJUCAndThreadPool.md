@@ -231,7 +231,7 @@ public class MyCallTest {
 }
 ```
 
-![image-20240716202724000](E:\JAVA58\一阶段\0716\img\image-20240716202724000.png)
+![image-20240716202724000](img/image-20240716202724000.png)
 
 ## 总结：
 
@@ -299,7 +299,7 @@ public class SaleWindowTest {
 }
 ```
 
-![image-20240716203631081](E:\JAVA58\一阶段\0716\img\image-20240716203631081.png)
+![image-20240716203631081](img/image-20240716203631081.png)
 
 
 
@@ -546,7 +546,7 @@ public class SynchronizedWaitNotifyAllTest {
 }
 ```
 
-![image-20240716235202286](E:\JAVA58\一阶段\0716\img\image-20240716235202286.png)
+![image-20240716235202286](img/image-20240716235202286.png)
 
 # 面试题：
 
@@ -673,7 +673,7 @@ public class SynchronizedWaitNotifyAllTest {
 }
 ```
 
-![image-20240716235109432](E:\JAVA58\一阶段\0716\img\image-20240716235109432.png)
+![image-20240716235109432](img/image-20240716235109432.png)
 
 ### 结果分析:无论是生产者还是消费者，都是通过notifyAll方法进行唤醒这个方法将会唤醒处于阻塞状态下的所有线程;由于之前的线程进入到阻塞状态是从wait方法开始，因此再次被唤醒后，不需要判断值，直接向后继续执行，因此出现错误结果
 
@@ -993,7 +993,7 @@ public ThreadPoolExecutor(int corePoolSize,
 
 ## (理解)--策略模式(是Java中23种常见设计模式的一种)
 
-![image-20240716154414867](E:\JAVA58\一阶段\0716\img\image-20240716154414867.png)
+![image-20240716154414867](img/image-20240716154414867.png)
 
 ### 1、(默认的拒绝策略):抛出异常阻止程序运行，实际开发中使用该策略即可
 
