@@ -92,7 +92,7 @@ if(is != null){
 
 # 原理树——DOM树
 
-![image-20240718090339248](E:\JAVA58\二阶段\0718\img\image-20240718090339248.png)
+![image-20240718090339248](img/image-20240718090339248.png)
 
 # 操作步骤
 
@@ -112,7 +112,7 @@ if(is != null){
 
 # 2、student.xml文件定义
 
-![image-20240718202549279](E:\JAVA58\二阶段\0718\img\image-20240718202549279.png)
+![image-20240718202549279](img/image-20240718202549279.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -141,7 +141,7 @@ if(is != null){
 
 # 3、按照指定的需求完成对xml文件的操作
 
-![image-20240718220631244](E:\JAVA58\二阶段\0718\img\image-20240718220631244.png)
+![image-20240718220631244](img/image-20240718220631244.png)
 
 ```java
 public class XMLByDOMTest {
@@ -169,7 +169,7 @@ public class XMLByDOMTest {
 }
 ```
 
-![image-20240718212251364](E:\JAVA58\二阶段\0718\img\image-20240718212251364.png)
+![image-20240718212251364](img/image-20240718212251364.png)
 
 ```java
 @Test
@@ -200,7 +200,7 @@ public void editThirdStuSubject() throws Exception {
 }
 ```
 
-![image-20240718220656480](E:\JAVA58\二阶段\0718\img\image-20240718220656480.png)
+![image-20240718220656480](img/image-20240718220656480.png)
 
 # 4、工具类的封装思想
 
@@ -236,9 +236,9 @@ public void editThirdStuSubject() throws Exception {
 
 ## 1、将指定的配置文件的路径定义在 .properties文件中；文件名是固定的（源码权限问题）—解决硬编码— .properties文件
 
-![image-20240718223228104](E:\JAVA58\二阶段\0718\img\image-20240718223228104.png)
+![image-20240718223228104](img/image-20240718223228104.png)
 
-![image-20240718223426428](E:\JAVA58\二阶段\0718\img\image-20240718223426428.png)
+![image-20240718223426428](img/image-20240718223426428.png)
 
 ### .properties配置文件在操作.xml文件之前就应该加载好（只加载一次）所以写在static代码块中
 
@@ -330,7 +330,7 @@ public abstract class DomUtils {
 
 ### ①增加
 
-![image-20240719212038055](E:\JAVA58\二阶段\0718\img\image-20240719212038055.png)
+![image-20240719212038055](img/image-20240719212038055.png)
 
 ```java
 public class XMLByDOMUtilsTest {
@@ -367,7 +367,7 @@ public class XMLByDOMUtilsTest {
 }
 ```
 
-![image-20240719204142475](E:\JAVA58\二阶段\0718\img\image-20240719204142475.png)
+![image-20240719204142475](img/image-20240719204142475.png)
 
 ### ②删除
 
@@ -400,7 +400,7 @@ public void deleteFirstStudent() {
 
 ## 运行原理：
 
-![image-20240718105510149](E:\JAVA58\二阶段\0718\img\image-20240718105510149.png)
+![image-20240718105510149](img/image-20240718105510149.png)
 
 ### 来一个class字节码文件,classload统一管理不过来，所有调用者可以通过Class类中提供的方法操作指定类成员
 
@@ -427,11 +427,11 @@ public final Class getclass();
 
 # 使用反射机制操作类成员
 
-![image-20240719221040454](E:\JAVA58\二阶段\0718\img\image-20240719221040454.png)
+![image-20240719221040454](img/image-20240719221040454.png)
 
 ## 按照JavaBean规范自定义类
 
-![image-20240719221546387](E:\JAVA58\二阶段\0718\img\image-20240719221546387.png) 
+![image-20240719221546387](img/image-20240719221546387.png) 
 
 ```java
 package cn.wolfcode.domain;
@@ -460,7 +460,7 @@ public class Student {
 
 #### 构造器的作用：实例化对象、有参构造器完成值的传递、无参构造器只做实例化的操作
 
-![image-20240720001348563](E:\JAVA58\二阶段\0718\img\image-20240720001348563.png)
+![image-20240720001348563](img/image-20240720001348563.png)
 
 ```java
 public class Student_ReflectTest {
